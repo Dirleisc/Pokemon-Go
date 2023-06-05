@@ -1,0 +1,72 @@
+nav {
+  background-image: url(./public/pokedex-go-logo.png);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  box-shadow: 4px 4px 8px #242424;
+}
+nav > img {
+  height: 7rem;
+  width: auto;
+}
+
+.search-pokemon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.switch {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #fcca04;
+  border-radius: 10px;
+  padding: 1px;
+}
+
+.switch > svg {
+  height: 1.5rem;
+  width: auto;
+}
+.switch > label {
+  background-color: #ccc;
+  width: 4rem;
+  height: 1.5rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 1px;
+}
+
+.slider {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1.5rem;
+  background-color: #26e;
+  transition: 0.8s;
+}
+
+.check-switch:checked + .slider {
+  transform: translate(2.5rem);
+}
+.button-lightblue {
+  background-color: rgb(32, 128, 167);
+  color: rgb(232, 230, 227);
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 100%;
+  font-family: "Flexo-Demi", arial, sans-serif;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  line-height: 125%;
+  margin: 1.5625%;
+  padding: 0.75em 1.25em 0.675em;
+  vertical-align: middle;
+  text-align: center;
+  text-transform: none;
+}

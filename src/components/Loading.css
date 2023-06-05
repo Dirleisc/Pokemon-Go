@@ -1,0 +1,20 @@
+.loading {
+  border: 5px solid #e2e2e2;
+  border-top-color: #26e;
+  border-right-color: #26c;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  animation: spiner 1s linear infinite;
+  grid-column: 1 / 6;
+  margin: 10px auto;
+}
+
+@keyframes spiner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

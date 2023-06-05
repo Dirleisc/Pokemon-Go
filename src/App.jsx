@@ -1,7 +1,11 @@
+import NavBar from "./components/NavBar";
+import Pokemons from "./components/Pokemons";
+
 function App() {
   return (
     <div>
-      <h1>hello Word!</h1>
+      <NavBar />
+      <Pokemons />
     </div>
   );
 }
